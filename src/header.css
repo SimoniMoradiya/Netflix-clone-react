@@ -1,0 +1,43 @@
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    height: 70px;
+    z-index: 1;
+    justify-content: space-between;
+    /*Animation*/
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+  }
+  
+  .nav__black {
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    display: flex;
+    padding: 20px;
+    height: 70px;
+    width: 100%;
+    transform: translateY(10);
+    transition: transform 6s ease;
+    animation: myanimation 3s;
+    z-index: 2;
+  }
+  
+  .nav__logo {
+    position: fixed;
+    width: 80px;
+    top: 25px;
+    object-fit: contain;
+  }
+  
+  .nav__avtar {
+    width: 30px;
+    position: fixed;
+    right: 20px;
+    object-fit: contain;
+  }
